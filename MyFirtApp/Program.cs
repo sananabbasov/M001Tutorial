@@ -46,31 +46,86 @@ bool isDelete = true;
 //    Console.WriteLine("Silinmeyib.");
 //}
 
-string currentEmail = "sanan@compar.az";
-string currentPassword = "123456";
+//string currentEmail = "sanan@compar.az";
+//string currentPassword = "123456";
 
-Console.Write("Emaili yazin: ");
-string email = Console.ReadLine();
+//Console.Write("Emaili yazin: ");
+//string email = Console.ReadLine();
 
-Console.Write("Sifreni yazin: ");
-string pasword = Console.ReadLine();
+//Console.Write("Sifreni yazin: ");
+//string pasword = Console.ReadLine();
 
 
-if (email == currentEmail && pasword == currentPassword)
-{
-    Console.WriteLine("Xos geldiniz " + currentEmail);
-}
-else
-{
-    if (pasword != currentPassword)
-    {
-        Console.WriteLine("Sifre sehfi");
-    }
-    else if (email != currentEmail)
-    {
-        Console.WriteLine("Email sehdi");
-    }
-}
+//if (email == currentEmail && pasword == currentPassword)
+//{
+//    Console.WriteLine("Xos geldiniz " + currentEmail);
+//}
+//else
+//{
+//    if (pasword != currentPassword)
+//    {
+//        Console.WriteLine("Sifre sehfi");
+//    }
+//    else if (email != currentEmail)
+//    {
+//        Console.WriteLine("Email sehdi");
+//    }
+//}
 
-// CTRL + K + C , CTRL + K + U, CTRL + K + D, CTRL + Shift + B - Build
+//Console.Write("Balinizi daxil edin: ");
+//var point = Console.ReadLine();
 
+//int checkPoint = Convert.ToInt32(point);
+
+//if (point == null)
+//{
+//    Console.WriteLine("Zehmet olmasa bal secin.");
+//}
+//else if (checkPoint < 51)
+//{
+//    Console.WriteLine("Kesildiniz.");
+//}
+//else if (checkPoint > 51 && checkPoint < 61)
+//{
+//    Console.WriteLine("E");
+//}
+//else if (checkPoint >= 61 && checkPoint < 71)
+//{
+//    Console.WriteLine("D");
+//}
+//else if (checkPoint >= 71 && checkPoint < 81)
+//{
+//    Console.WriteLine("C");
+//}
+//else if (checkPoint >= 81 && checkPoint < 91)
+//{
+//    Console.WriteLine("B");
+//}
+//else if (checkPoint >= 91 && checkPoint <= 100)
+//{
+//    Console.WriteLine("A");
+//}
+
+DateTime ne = DateTime.Now;
+
+
+
+
+
+Console.WriteLine(ne.Year);
+
+
+// Kart nomresi
+// Sifre 
+// Balans == 0
+
+
+
+
+
+
+
+// CTRL + K + C ,
+// CTRL + K + U,
+// CTRL + K + D,
+// CTRL + Shift + B
