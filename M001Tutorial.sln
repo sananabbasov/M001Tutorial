@@ -5,9 +5,11 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirtApp", "MyFirtApp\MyFirtApp.csproj", "{6F4F590C-33CF-4364-8579-245D60684A80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM", "ATM\ATM.csproj", "{5CD40D1D-4C58-4CA5-A729-3FB02832CA8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATM", "ATM\ATM.csproj", "{5CD40D1D-4C58-4CA5-A729-3FB02832CA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{05290CD9-741D-45F6-985E-EE5AA0F17D49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{05290CD9-741D-45F6-985E-EE5AA0F17D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{DC54A1BE-3BB0-4FBE-9AB5-2755E3C216E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{05290CD9-741D-45F6-985E-EE5AA0F17D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05290CD9-741D-45F6-985E-EE5AA0F17D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05290CD9-741D-45F6-985E-EE5AA0F17D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC54A1BE-3BB0-4FBE-9AB5-2755E3C216E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC54A1BE-3BB0-4FBE-9AB5-2755E3C216E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC54A1BE-3BB0-4FBE-9AB5-2755E3C216E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC54A1BE-3BB0-4FBE-9AB5-2755E3C216E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
