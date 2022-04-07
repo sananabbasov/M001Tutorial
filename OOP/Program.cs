@@ -1,56 +1,16 @@
 ﻿using OOP.Models;
+using OOP.Services;
 
-Product product1 = new();
+ProductManager productManager = new();
 
-product1.Name = "iPhone 13 Pro 256GB Gold";
-product1.Desc = "Cox bahali telefondu";
-product1.Hit = 56;
-
-
-Product product2 = new()
+foreach (var product in productManager.Getall())
 {
-    Name = "Iphone X",
-    Desc = "Kohne telefondu",
-    Hit = 500
-};
-
-
-List<string> myList = new();
-
-myList.Add(product1.Name);
-myList.Add(product2.Name);
-
-
-//Console.WriteLine(product1.Name +"\n"+ product2.Name);
-
-
-foreach (var list in myList)
-{
-    Console.WriteLine(list);
+    Console.WriteLine(product.Id + ". " +product.Name);
 }
 
 
+Console.Write("Meqale id daxil edin: ");
+var meqaleId =  Console.ReadLine();
 
-
-
-var a = 5;
-var b = 4;
-var c = 3;
-a = b;
-c = a;
-
-
-
-
-//int[] arr1 = { 1, 2, 3 };
-//int[] arr2 = { 4, 5, 6 };
-//arr1[0] = 100; // 100, 2, 3 
-
-//arr2 = arr1;
-
-
-//for (int i = 0; i < arr2.Length; i++)
-//{
-//    Console.WriteLine(arr2[i]);
-
-//}
+var productDesc = productManager.GetById(Convert.ToInt32(meqaleId));
+Console.WriteLine(productDesc.Name+"\n"+productDesc.Desc);

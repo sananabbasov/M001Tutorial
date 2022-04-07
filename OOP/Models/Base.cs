@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOP.Models
 {
-    public class Product : Base
+    public class Base
     {
-        public string Desc { get; set; }
-        public int Hit { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

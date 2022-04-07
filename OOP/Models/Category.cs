@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP.Models
 {
-    public class Product : Base
+    public class Category : Base
     {
-        public string Desc { get; set; }
-        public int Hit { get; set; }
+     
     }
 }
