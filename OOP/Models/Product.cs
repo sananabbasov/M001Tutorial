@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP.Models
 {
-    public class Product : Base
+    internal class Product : Base
     {
         public string Desc { get; set; }
         public int Hit { get; set; }
