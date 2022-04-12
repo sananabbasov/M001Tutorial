@@ -86,6 +86,7 @@ namespace Ecommerce.Services
         };
 
 
+
         public List<Product> GetHamisiGetir()
         {
             return products;
@@ -98,11 +99,26 @@ namespace Ecommerce.Services
             return product;
         }
 
-        public List<Product> GetFilterEleGetir(int? qiymet=0)
+        public List<Product> GetFilterEleGetir(int? qiymet = 0)
         {
+            return products.Where(x => x.Price >= qiymet).ToList();
+        }
 
+        public void AddProduct(Product product)
+        {
+            products.Add(product);
+        }
 
-            return products.Where(x=>x.Price >= qiymet).ToList();
+        public void RemoveProduct(int id)
+        {
+            var product = products.FirstOrDefault(x => x.Id == id);
+            products.Remove(product);
+        }
+
+        public void editProduct(int id)
+        {
+            var product = products.FirstOrDefault(x => x.Id == id);
+            product.Name = "Bu deyisdirilmis basliqdi.";
         }
 
     }
