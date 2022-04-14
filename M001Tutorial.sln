@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP", "OOP\OOP.csproj", "{DC54A1BE-3BB0-4FBE-9AB5-2755E3C216E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce", "Ecommerce\Ecommerce.csproj", "{B1CA2A75-204A-4A54-9314-323DFB6479D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce", "Ecommerce\Ecommerce.csproj", "{B1CA2A75-204A-4A54-9314-323DFB6479D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counter", "Counter\Counter.csproj", "{447E4547-951D-4C81-B997-AF732E502C67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritm", "Algoritm\Algoritm.csproj", "{997EA250-C13E-4D12-966E-FABE607C05DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B1CA2A75-204A-4A54-9314-323DFB6479D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1CA2A75-204A-4A54-9314-323DFB6479D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1CA2A75-204A-4A54-9314-323DFB6479D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447E4547-951D-4C81-B997-AF732E502C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447E4547-951D-4C81-B997-AF732E502C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447E4547-951D-4C81-B997-AF732E502C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447E4547-951D-4C81-B997-AF732E502C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997EA250-C13E-4D12-966E-FABE607C05DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997EA250-C13E-4D12-966E-FABE607C05DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997EA250-C13E-4D12-966E-FABE607C05DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997EA250-C13E-4D12-966E-FABE607C05DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
