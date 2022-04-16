@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce", "Ecommerce\Ecom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counter", "Counter\Counter.csproj", "{447E4547-951D-4C81-B997-AF732E502C67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritm", "Algoritm\Algoritm.csproj", "{997EA250-C13E-4D12-966E-FABE607C05DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algoritm", "Algoritm\Algoritm.csproj", "{997EA250-C13E-4D12-966E-FABE607C05DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine", "SearchEngine\SearchEngine.csproj", "{84F54293-ABB1-4601-853A-FEB9600E3EA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{997EA250-C13E-4D12-966E-FABE607C05DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997EA250-C13E-4D12-966E-FABE607C05DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{997EA250-C13E-4D12-966E-FABE607C05DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F54293-ABB1-4601-853A-FEB9600E3EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F54293-ABB1-4601-853A-FEB9600E3EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F54293-ABB1-4601-853A-FEB9600E3EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F54293-ABB1-4601-853A-FEB9600E3EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
